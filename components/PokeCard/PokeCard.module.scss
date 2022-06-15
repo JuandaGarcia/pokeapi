@@ -1,0 +1,14 @@
+.pokecard {
+	border-radius: 2rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.04);
+	&__name {
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-transform: capitalize;
+	}
+}

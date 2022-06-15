@@ -1,0 +1,64 @@
+.home {
+	margin: 0 auto;
+	padding: 2rem;
+	max-width: 1200px;
+	&__input {
+		width: 100%;
+		height: 3.125rem;
+		margin-bottom: 1.25rem;
+		border-radius: 0.625rem;
+		padding: 5px 1rem;
+		resize: vertical;
+		background-color: #f0f0f0;
+		outline: none;
+		border: none;
+		font-family: inherit;
+		caret-color: var(--color-1);
+		transition: 0.5s;
+		transition-property: background-color, box-shadow;
+		-webkit-appearance: none;
+		appearance: none;
+		vertical-align: top;
+		color: var(--accent-color);
+		&:focus {
+			box-shadow: 0 0 0 3px var(--color-1);
+			background-color: #fff;
+		}
+	}
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 2rem;
+	}
+	&__button {
+		height: 3.125rem;
+		width: max-content;
+		padding: 0 3rem;
+		font-weight: 500;
+		color: #fff;
+		background: var(--color-1);
+		border-radius: var(--radius-1);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		user-select: none;
+		cursor: pointer;
+		border: none;
+		font-size: inherit;
+		-webkit-tap-highlight-color: transparent;
+		font-family: inherit;
+		margin: 0 auto;
+		margin-top: 2rem;
+	}
+	&__footer {
+		display: flex;
+		align-items: center;
+		padding-top: 2rem;
+		justify-content: space-between;
+		&__link {
+			text-decoration: underline;
+		}
+	}
+}
